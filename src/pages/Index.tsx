@@ -289,7 +289,7 @@ const WeChat = () => {
         </h1>
       </div>
 
-      <div className="flex-1 overflow-hidden">
+      <div className="flex-1 overflow-hidden bg-slate-100">
         {activeTab === 'chats' && renderChats()}
         {activeTab === 'contacts' && renderContacts()}
         {activeTab === 'calls' && renderCalls()}
