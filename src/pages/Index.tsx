@@ -283,7 +283,7 @@ const WeChat = () => {
 
   return (
     <div className="h-screen bg-background flex flex-col">
-      <div className="p-4 bg-card border-b">
+      <div className="p-4 border-b bg-sky-700">
         <h1 className="text-2xl font-sf-pro font-bold text-center bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
           WeChat
         </h1>
@@ -296,7 +296,7 @@ const WeChat = () => {
         {activeTab === 'profile' && renderProfile()}
       </div>
 
-      <div className="border-t bg-card p-2">
+      <div className="border-t p-2 bg-emerald-100">
         <div className="flex justify-around">
           <Button
             variant={activeTab === 'chats' ? 'default' : 'ghost'}
