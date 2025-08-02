@@ -157,11 +157,9 @@ const WeChat = () => {
     <div className="p-6">
       <div className="text-center mb-8">
         <Avatar className="h-24 w-24 mx-auto mb-4">
-          <AvatarFallback className="bg-gradient-to-br from-primary to-secondary text-white font-sf-pro text-2xl">
-            ВП
-          </AvatarFallback>
+          <AvatarFallback className="bg-gradient-to-br from-primary to-secondary text-white font-sf-pro text-2xl">MF</AvatarFallback>
         </Avatar>
-        <h2 className="text-2xl font-sf-pro font-bold text-foreground">Владимир Петров</h2>
+        <h2 className="text-2xl font-sf-pro font-bold text-foreground">Miya Fater</h2>
         <p className="text-muted-foreground">@vladimir_p</p>
       </div>
 
